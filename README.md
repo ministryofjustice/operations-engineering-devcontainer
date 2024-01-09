@@ -7,7 +7,7 @@ Testing out using a devcontainer to accelerate local dev setup.
 ## How to 
 
 - Clone this repository.
-- Run ```sh container_dependencies.sh``` in the root of this repository to install the pre-requisites to build and run the devcontainer.
+- Run ```sh .devcontainer/container_dependencies.sh``` in the root of this repository to install the pre-requisites to build and run the devcontainer.
 - The IDE should automatically open and prompt you to reopen the repository in a container, click 'Reopen in container', this 
 may take some time the first time as the container will need to be built. 
 - You are now developing in the devcontainer. 
