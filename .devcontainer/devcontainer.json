@@ -1,0 +1,24 @@
+//devcontainer.json
+{
+    "name": "ops-eng-devcontainer",
+
+    // pull in local env vars e.g. secrets
+    "containerEnv": {},
+
+    "dockerFile": "Dockerfile",
+
+    "features": {"ghcr.io/devcontainers/features/docker-in-docker:2": {}},
+
+    "runArgs": ["--name=ops-eng-devcontainer"],
+
+    "customizations": {
+      "vscode": {
+        "extensions": [
+            "alefragnani.project-manager",
+            "amazonwebservices.aws-toolkit-vscode"
+        ]
+      }
+    },
+  
+    "forwardPorts": [3000]
+  }
