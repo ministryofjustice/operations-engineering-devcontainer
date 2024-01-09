@@ -10,3 +10,5 @@ brew install --cask visual-studio-code
 brew install node
 
 sudo npm install --location=global @devcontainers/cli@latest
+
+code . 
