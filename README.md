@@ -11,3 +11,6 @@ Testing out using a devcontainer to accelerate local dev setup.
 - The IDE should automatically open and prompt you to reopen the repository in a container, click 'Reopen in container', this
   may take some time the first time as the container will need to be built.
 - You are now developing in the devcontainer.
+
+## Future developments 
+- Secret integration e.g. using 1Password as here https://technical-documentation.data-platform.service.justice.gov.uk/documentation/platform/infrastructure/developing.html#prerequisites
