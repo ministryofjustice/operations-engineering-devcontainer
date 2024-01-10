@@ -25,7 +25,6 @@ RUN apt-get update \
   wget \
   build-essential \
   gpg-agent \
-  libcurl4-openssl-dev \
   openssh-client 
 
 # install terraform
@@ -64,3 +63,8 @@ RUN echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg m
   # install docker compose 
   RUN sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose \
     && sudo chmod +x /usr/local/bin/docker-compose 
+
+  # install Python 3.11
+  RUN sudo add-apt-repository ppa:deadsnakes/ppa \
+  && sudo apt-get update \
+  && sudo apt-get install python3.5
