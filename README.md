@@ -12,12 +12,12 @@ Testing out using a devcontainer to accelerate local dev setup.
   may take some time the first time as the container will need to be built.
 - You are now developing in the devcontainer.
 
-## How to build the container 
+## How to build the container
 
 - Modify .devcontainer/base_image/Dockerfile
 - Run `sh .devcontainer/base_image/build_and_push_to_dockerhub.sh`
-- That will update the base Docker image located at https://hub.docker.com/repository/docker/ministryofjustice/operations-engineering-devcontainer/general 
+- That will update the base Docker image located at https://hub.docker.com/repository/docker/ministryofjustice/operations-engineering-devcontainer/general
 
-## Future developments 
+## Future developments
 
 - Secret integration e.g. using 1Password as here https://technical-documentation.data-platform.service.justice.gov.uk/documentation/platform/infrastructure/developing.html#prerequisites
