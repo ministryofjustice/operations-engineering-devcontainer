@@ -64,4 +64,4 @@ RUN echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg m
   # install Python 3.11
   RUN sudo add-apt-repository ppa:deadsnakes/ppa \
   && sudo apt-get update \
-  && sudo apt-get install python3.5
+  && sudo apt-get install -y python3.11
