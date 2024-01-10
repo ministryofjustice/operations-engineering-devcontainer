@@ -12,9 +12,6 @@ RUN apt-get update \
   software-properties-common \
   git-all \
   less \
-  python3-pip \
-  python3-setuptools \
-  python3 \
   tar \
   unzip \
   zip \
